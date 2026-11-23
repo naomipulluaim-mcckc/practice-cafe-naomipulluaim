@@ -194,3 +194,121 @@ nav {
     color: inherit;
     font-weight: 700;
 }
+
+.story {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 96px 64px 40px;
+    background-color: #243A30;
+    color: #F7E1C3;
+    border-radius: 24px;
+    margin-bottom: 16px;
+}
+.story-intro {
+    width: 34%;
+}
+.story-label {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #E2C08D;
+}
+.story-intro h2 {
+    font-size: 96px;
+    line-height: 0.95;
+    text-transform: uppercase;
+    color: #E2C08D;
+}
+.story-cards {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.step {
+    width: 31%;
+    margin-bottom: 56px;
+}
+.step img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+.step-number {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #E2C08D;
+    margin-bottom: 8px;
+}
+.step h3 {
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.split {
+    display: flex;
+    border-radius: 24px;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+.half-tan, .half-rust {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 64px 48px;
+}
+.half-tan {
+    background-color: #E2C08D;
+}
+.half-rust {
+    background-color: #DA4921;
+    color: #FFFFFF;
+}
+.split h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.split-label {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+.half-rust .button {
+    background-color: #243A30;
+}
+
+.site-footer {
+    background-color: #243A30;
+    color: #F7E1C3;
+    padding: 56px 40px 24px;
+    border-radius: 24px;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+.brand {
+    width: 28%;
+}
+.footer-col {
+    width: 16%;
+}
+.site-footer a {
+    color: #F7E1C3;
+    text-decoration: none;
+}
+.footer-col p {
+    margin: 0 0 8px;
+}
+.legal {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid #F7E1C3;
+    font-size: 12px;
+}
